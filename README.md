@@ -13,6 +13,11 @@
     </style>
 </head>
 <body>
-    <!-- Your content goes here -->
-</body>
-</html>
+    <section id="router-controls">
+        <h2>Router Controls</h2>
+        <button id="reboot-btn">Reboot Router</button>
+        <button id="wifi-btn">Toggle Wi-Fi</button>
+        <button id="factory-btn">Restore Factory Settings</button>
+    </section>
+    <script>
+        document.getElementById('reboot-btn').
